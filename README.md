@@ -37,16 +37,17 @@
           - select Desktop application as your application type
           - click on the Create button
       
-  -click on the credentials tab     
+   
 
-      - click on the application name you just created under OAuth section    
+  - click on the application name you just created under OAuth section    
           
         ![creadential](./img/Screenshot380.png?raw=true "Title")     
         
   - Then you need to click on the "Download JSON" button
 
-        ![download-json-file](./img/Screenshot381.png?raw=true "Title")
-
+  ![download-json-file](./img/Screenshot381.png?raw=true "Title") 
+   
+  - rename the  json file to `client-secret.json` 
   
 > you will need to edit the file named `settings.yaml` in the same directory as this script 
 
