@@ -45,14 +45,9 @@
         
   - Then you need to click on the "Download JSON" button
 
-<<<<<<< HEAD
   ![download-json-file](./img/Screenshot381.png?raw=true "Title") 
    
   - rename the  json file to `client-secret.json` 
-=======
-        ![download-json-file](./img/Screenshot380.png?raw=true "Title")
-
->>>>>>> 6f1bf8091b8a296ed05a004d35102e6c2abfcf09
   
 > you will need to edit the file named `settings.yaml` in the same directory as this script 
 
