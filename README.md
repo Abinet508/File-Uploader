@@ -45,7 +45,7 @@
         
   - Then you need to click on the "Download JSON" button
 
-        ![download-json-file](./img/Screenshot381.png?raw=true "Title")
+        ![download-json-file](./img/Screenshot380.png?raw=true "Title")
 
   
 > you will need to edit the file named `settings.yaml` in the same directory as this script 
