@@ -41,11 +41,11 @@
 
       - click on the application name you just created under OAuth section    
           
-        ![creadential](img//Screenshot380.png)     
+        ![creadential](./img/Screenshot380.png?raw=true "Title")     
         
   - Then you need to click on the "Download JSON" button
 
-        ![download-json-file](img//Screenshot381.png)
+        ![download-json-file](./img/Screenshot381.png?raw=true "Title")
 
   
 > you will need to edit the file named `settings.yaml` in the same directory as this script 
