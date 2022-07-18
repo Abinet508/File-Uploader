@@ -3,10 +3,10 @@
 ### ```Prerequisite:```
 > you will need to have a google account and a google drive account  
 
-    - you can use this link [google account](https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp) to create a google account    
-    
-    - you can use this link [google drive account](https://drive.google.com/drive/my-drive) to create a google drive account 
-   
+- you can use this link [google account](https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp) to create a google account    
+
+- you can use this link [google drive account](https://drive.google.com/drive/my-drive) to create a google drive account 
+
 
 > you will need to have a telegram account
 
