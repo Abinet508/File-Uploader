@@ -38,18 +38,7 @@ async def upload(FileName):
 API_ID = config('API_ID')
 API_HASH = config('API_HASH')
 client = TelegramClient('Credential/anon',API_ID,API_HASH)  # your session will be stored in a file called anon.session
-client2 = TelegramClient('',API_ID,API_HASH)  # your session will be stored in a file called anon.session
-Weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-now = time.localtime()
-now1 = time.strftime("%I:%M %p")
-weekday_index = now.tm_wday
-Today=["Tues"]
-previousid=[0]
-Jobposted=[0]
-allpostedjobs=[]
-previousid2=[0]
-Jobposted2=[0]
-allpostedjobs2=[]
+
 #client.start()
 
 loop = asyncio.get_event_loop()
