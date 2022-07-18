@@ -39,7 +39,7 @@
       
    
 
-  - click on the application name (Desktop client 1) you just created under OAuth section    
+  - click on the the Client name (Desktop client 1) you just created under OAuth section    
           
   ![creadential](./img/Screenshot380.png?raw=true "Title")     
         
