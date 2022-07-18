@@ -1,8 +1,6 @@
-#!/home/askethiopiacom/virtualenv/Abinet/3.8/bin/python3.8_bin
 import asyncio
 import threading
-#from typing import Counter
-from telethon import Button, TelegramClient
+from telethon import TelegramClient
 import csv
 import time, os,sys
 import csv
@@ -19,8 +17,10 @@ Save your API_ID and API_HASH in Creditential/.env with the following format:
  API_HASH="12345678abcdefghijklmnopqrstuvwxyz" .
 
  ```
-"""
-
+"""      
+ 
+dirname = os.path.dirname(__file__) 
+abs_path = os.path.join(dirname, 'Books')
 SCOPES = 'https://www.googleapis.com/auth/drive'
 Folder='14o8-_gFd1Cslyd1voBojxfctDi9LJEn3'
 config = AutoConfig('Credential/.env')
@@ -31,7 +31,7 @@ drive=GoogleDrive(gauth)
 async def upload(FileName):
     print(FileName)
     file1 = drive.CreateFile({"parents":[{"id":Folder}],'title': FileName})
-    file1.SetContentFile("C:\\Users\\abina\\Desktop\\BookStore\\Books\\{}".format(FileName))
+    file1.SetContentFile("{}\\{}".format(abs_path,FileName))
     file1.Upload()
     print("File Uploaded")
 
@@ -119,7 +119,7 @@ async def Starter():
   
    
       try: 
-            dirname = os.path.dirname(__file__)
+          
             Counter2=0
             print("Starting")
             await client.start()
@@ -148,8 +148,7 @@ async def Starter():
                                       NewmessageID.clear()
                                       NewmessageID.append(str(message.id))
                                       #print(message.media.document.mime_type)
-                                      filename = os.path.join(dirname, 'Books')
-                                      path = await client.download_media(message.media, filename)
+                                      path = await client.download_media(message.media, abs_path)
                                       #print(message.media.document.attributes[0].file_name,"path:{}".format(path))
                                       print("-------------------------------------------")
                                       print("-------------------------------------------")
