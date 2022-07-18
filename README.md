@@ -41,7 +41,7 @@
 
   - click on the application name you just created under OAuth section    
           
-        ![creadential](./img/Screenshot380.png?raw=true "Title")     
+  ![creadential](./img/Screenshot380.png?raw=true "Title")     
         
   - Then you need to click on the "Download JSON" button
 
