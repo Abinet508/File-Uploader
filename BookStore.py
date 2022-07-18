@@ -51,7 +51,7 @@ previousid2=[0]
 Jobposted2=[0]
 allpostedjobs2=[]
 #client.start()
-client2.start(bot_token='2007942586:AAGa59g_JfC42l5hTPzvnAMH2GNPz-nFPJU')
+
 loop = asyncio.get_event_loop()
 
 
